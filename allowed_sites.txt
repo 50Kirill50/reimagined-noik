@@ -1,0 +1,13 @@
+https://docs.python.org
+https://scikit-learn.ru/
+https://pandas.pydata.org
+https://numpy.org/doc/
+https://www.nltk.org/
+https://www.geeksforgeeks.org
+https://education.yandex.ru/handbook
+https://jupyter.org/
+https://huggingface.co/
+https://arxiv.org/
+https://huggingface.co/papers/trending  # papers with code
+https://www.kaggle.com/
+https://colab.research.google.com/
