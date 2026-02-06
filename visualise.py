@@ -5,7 +5,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-# ═══ 1. ПАРАМЕТРИЧЕСКОЕ МОДЕЛИРОВАНИЕ ═══
+# ═══ 1. МОДЕЛИРОВАНИЕ ═══
 def visualize_fit(x, y, model_func, params):
     """
     Проверить качество подгонки
