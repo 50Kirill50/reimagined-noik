@@ -27,8 +27,13 @@ def add_statistical_features(signal):
         np.median(signal),                # Медиана
         np.percentile(signal, 25),        # 25-й процентиль
         np.percentile(signal, 75),        # 75-й процентиль
+        (signal > signal.mean()).sum(),  # Сколько выше среднего ?
+        np.abs(np.diff(signal)).mean()   # Средняя скорость изменения
     ]
     return list(signal) + features
+
+# Применить
+X = np.array([add_features(row) for row in X])
 
 # Применить к данным
 X = [add_statistical_features(x) for x in X]
